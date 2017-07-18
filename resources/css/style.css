@@ -1,0 +1,28 @@
+html{
+font-size: 18px;
+font-family: Helvetica;
+}
+#header{
+color:white;
+height: 70px;
+
+background-color: black;
+}
+#header img{
+
+height: 1.5rem;
+padding-left: 1rem ;
+
+}
+#header p{
+padding: 0.66rem;
+width: 960px;
+}
+main{
+width: 960px;
+}
+#container_1{
+width: 1080px;
+height: 721px;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+}
