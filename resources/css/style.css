@@ -69,9 +69,13 @@ text-align: center;
 display: flex;
 justify-content: space-between;
 }
-nav ul li {
+nav.desktop ul li {
 display: inline;
 padding: 0.75rem 0;
+}
+
+nav.tablet{
+  display:none;
 }
 
 /* CSS for the 3 blocks*/
@@ -141,4 +145,45 @@ width: 960px;
 text-align: left;
 margin: auto;
 padding-top: 5rem;
+}
+
+/* CSS responsive */
+@media screen and (max-width:1200px){
+.image:nth-child(3){
+  display:none;
+  }
+.container_block_2{
+  display: flex;
+  justify-content: space-between;
+  }
+.image{
+  width: 47%;
+  }
+.location,
+.hours {
+  width: 35%;
+  }
+  footer div{
+  text-align: left;
+  margin: 0;
+  }
+  .header_text{
+    margin-left: 0;
+  }
+  nav.desktop ul li{
+    display: none;
+  }
+  nav.tablet{
+    display: block;
+  }
+  nav.tablet p{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
+
+}
+@media screen and (max-width: 480px){
+
 }
