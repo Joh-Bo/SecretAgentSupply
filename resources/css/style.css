@@ -102,6 +102,11 @@ align-items: center;
 .img img{
 max-width: 8rem;
 }
+
+#contains_2 > div.container_block_2 > div:nth-child(3) > div.img > img{
+max-width: 100%;
+margin-bottom: 8px;
+}
 .text{
 background-color: black;
 color: white;
@@ -111,7 +116,6 @@ text-align: center;
 }
 
 /* CSS for the location & hours section*/
-
 .container_block_3{
 width: 960px;
 margin: auto;
@@ -208,14 +212,9 @@ main{
 overflow-x: hidden;
 width: 100% !important;
 }
-#container_1{
-/*max-width: 480px;*/
-}
 .container_block_1{
-/*border: 2px solid red;*/
 width: 100%;
 max-width: 480px !important;
-/*padding: 1rem 2rem;*/
 margin-top: 14.3rem !important;
 }
 .container_block_1 p:nth-child(1){
@@ -258,7 +257,6 @@ width: 100%;
 max-width: 480px !important;
 }
 .position p{
-/*border: 2px solid red;*/
 max-width: 90%;
 }
 .location,
