@@ -176,6 +176,7 @@ width: 35%;
 footer div{
 text-align: left;
 margin: 0;
+bottom: 0;
 }
 .header_text{
 margin-left: 0;
@@ -221,6 +222,12 @@ font-weight: bold;
 font-size: 1rem;
 font-family: Helvetica;
 font-weight: bold;
+}
+.header_text span{
+display: none;
+}
+.header_text img{
+margin: 0 15%;
 }
 nav.tablet{
 /*border: 2px solid yellow;*/
